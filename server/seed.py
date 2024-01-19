@@ -23,7 +23,7 @@ with app.app_context():
     users = []
     usernames = []
 
-    for i in range(20):
+    for i in range(200):
         
         username = fake.first_name()
         while username in usernames:
